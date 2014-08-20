@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" nage="hibernateCache">
+	<sizeOfPolicy maxDepth="10000" />
+	<!-- <diskStore path="java.io.tmpdir/ehcache/hibernate" />  -->
+	<diskStore path="d:/temp_doc/ehcache/framework/hibernate" />
+
+	<!-- DefaultCache setting. -->
+	<defaultCache 
+			maxEntriesLocalHeap="10000" 
+			eternal="false" 
+			timeToIdleSeconds="1800" 
+			timeToLiveSeconds="3600"
+			overflowToDisk="true" 
+			maxEntriesLocalDisk="200000" 
+			/>
+
+	<!-- Special objects setting. 
+	<cache name="com.ecm.example.entity.User" maxBytesLocalHeap="10M" eternal="true"
+		overflowToDisk="true" maxEntriesLocalDisk="10000" />
+    -->
+    
+	
+</ehcache>
