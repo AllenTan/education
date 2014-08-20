@@ -7,17 +7,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Erudite Website Template | Home :: w3layouts</title>
+<title>尖尖角语言表演艺术中心</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'>
-<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${rc.contextPath}/static/web/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!--slider-->
-<link href="./css/camera.css" rel="stylesheet" type="text/css" media="all" />
-    <script type='text/javascript' src="./js/jquery.min.js"></script>
-    <script type='text/javascript' src="./js/jquery.mobile.customized.min.js"></script>
-    <script type='text/javascript' src="./js/jquery.easing.1.3.js"></script> 
-    <script type='text/javascript' src="./js/camera.min.js"></script> 
+<link href="${rc.contextPath}/static/web/css/camera.css" rel="stylesheet" type="text/css" media="all" />
+    <script type='text/javascript' src="${rc.contextPath}/static/web/js/jquery.min.js"></script>
+    <script type='text/javascript' src="${rc.contextPath}/static/web/js/jquery.mobile.customized.min.js"></script>
+    <script type='text/javascript' src="${rc.contextPath}/static/web/js/jquery.easing.1.3.js"></script> 
+    <script type='text/javascript' src="${rc.contextPath}/static/web/js/camera.min.js"></script> 
       <script>
 		jQuery(function(){
 			
@@ -38,16 +38,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="wrap">
 <div class="wrapper">
 <div class="logo">
-	<a href="index.html"><h1>erudite</h1></a>
+	<a href="index.html"><h1>尖尖角语言表演艺术中心</h1></a>
 </div>
 <div class="header_right">
 	<div class="cssmenu">
 		<ul>
-		  	<li class="active"><a href="index.html"><span>Home</span></a></li>
-			<li><a href="about.html"><span>About</span></a></li>
-			<li><a href="staff.html"><span>Staff</span></a></li>
-			<li class="has-sub"><a href="service.html"><span>Services</span></a></li>
-			<li class="last"><a href="contact.html"><span>Contact</span></a></li>
+		  	<li class="active"><a href="index.html"><span>首页</span></a></li>
+			<li><a href="about.html"><span>关于我们</span></a></li>
+			<li><a href="staff.html"><span>员工简介</span></a></li>
+			<li class="has-sub"><a href="service.html"><span>教育服务</span></a></li>
+			<li class="last"><a href="contact.html"><span>联系我们</span></a></li>
 			<div class="clear"></div>
 		 </ul>
 	</div>
@@ -57,9 +57,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <div class="fluid_container">
    <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
-          <div data-src="./images/slider1.jpg"> </div>
-            <div data-src="./images/slider2.jpg"> </div>
-            <div  data-src="./images/slider3.jpg"> </div>
+          <div data-src="${rc.contextPath}/static/web/images/slider1.jpg"> </div>
+            <div data-src="${rc.contextPath}/static/web/images/slider2.jpg"> </div>
+            <div  data-src="${rc.contextPath}/static/web/images/slider3.jpg"> </div>
   </div>
 </div>
 	<div class="clear"></div>
@@ -71,16 +71,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>	
 	<div class="grids_1_of_4">
 				<div class="grid_1_of_4 images_1_of_4 bg1">
-					 <img src="./images/icon1.png">
+					 <img src="${rc.contextPath}/static/web/images/icon1.png">
 				</div>
 				<div class="grid_1_of_4 images_1_of_4 bg2">
-					 <img src="./images/icon2.png">
+					 <img src="${rc.contextPath}/static/web/images/icon2.png">
 				</div>
 				<div class="grid_1_of_4 images_1_of_4 bg3 hide">
-					 <img src="./images/icon3.png">
+					 <img src="${rc.contextPath}/static/web/images/icon3.png">
 				</div>
 				<div class="grid_1_of_4 images_1_of_4 bg4 hide">
-					 <img src="./images/icon4.png">
+					 <img src="${rc.contextPath}/static/web/images/icon4.png">
 				</div>
 			<div class="clear"></div>
 			</div>
@@ -159,7 +159,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 			<div class="grid_1_of_2 images_1_of_2 img_style">
-				<img src="./images/pic1.jpg" alt="">
+				<img src="${rc.contextPath}/static/web/images/pic1.jpg" alt="">
 			</div>
 			<div class="clear"></div>
 	</div>

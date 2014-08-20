@@ -1,9 +1,3 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -11,13 +5,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'>
-<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${rc.contextPath}/static/web/css/style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div class="wrap">
 <div class="wrapper">
 <div class="logo">
-	<a href="index.html"><h1>erudite</h1></a>
+	<a href="${rc.contextPath}/welcome/index"><h1>erudite</h1></a>
 </div>
 <div class="header_right">
 	<div class="cssmenu">
