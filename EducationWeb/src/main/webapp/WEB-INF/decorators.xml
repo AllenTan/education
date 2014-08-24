@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<decorators defaultdir="/commons/decorators/">
+<decorators defaultdir="/common/decorator/">
 	<excludes>
 		<pattern>/static/*</pattern>
 	</excludes>
-
+	<decorator name="main" page="main.ftl">
+		<pattern>/education/*</pattern>
+	</decorator>
 </decorators>

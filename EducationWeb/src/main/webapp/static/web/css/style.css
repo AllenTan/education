@@ -35,7 +35,7 @@ body {
 }
 .wrap{
 	margin:0 auto;
-	width:80%;
+	width:100%;
 }
 .wrapper{
 	padding: 2%;
@@ -65,134 +65,9 @@ h2.style{
 /*logo*/
 .logo{
 	float:left;
- 	text-shadow: rgb(242, 242, 242) 1px 1px,
-    rgb(242, 242, 242) 2px 2px,
-    rgb(242, 242, 242) 3px 3px,
-    rgb(242, 242, 242) 4px 4px,
-    rgb(242, 242, 242) 5px 5px,
-    rgb(242, 242, 242) 6px 6px,
-    rgb(242, 242, 242) 7px 7px,
-    rgb(242, 242, 242) 8px 8px,
-    rgb(242, 242, 242) 9px 9px,
-    rgb(242, 242, 242) 10px 10px,
-    rgb(242, 242, 242) 11px 11px,
-    rgb(242, 242, 242) 12px 12px,
-    rgb(242, 242, 242) 13px 13px,
-    rgb(242, 242, 242) 14px 14px,
-    rgb(242, 242, 242) 15px 15px,
-    rgb(242, 242, 242) 16px 16px,
-    rgb(242, 242, 242) 17px 17px,
-    rgb(242, 242, 242) 18px 18px,
-    rgb(242, 242, 242) 19px 19px,
-    rgb(242, 242, 242) 20px 20px,
-    rgb(242, 242, 242) 21px 21px,
-    rgb(242, 242, 242) 22px 22px,
-    rgb(242, 242, 242) 23px 23px,
-    rgb(242, 242, 242) 24px 24px,
-    rgb(242, 242, 242) 25px 25px,
-    rgb(242, 242, 242) 26px 26px,
-    rgb(242, 242, 242) 27px 27px,
-    rgb(242, 242, 242) 28px 28px,
-    rgb(242, 242, 242) 29px 29px,
-    rgb(242, 242, 242) 30px 30px,
-    rgb(242, 242, 242) 31px 31px,
-    rgb(242, 242, 242) 32px 32px,
-    rgb(242, 242, 242) 33px 33px,
-    rgb(242, 242, 242) 34px 34px,
-    rgb(242, 242, 242) 35px 35px,
-    rgb(242, 242, 242) 36px 36px,
-    rgb(242, 242, 242) 37px 37px,
-    rgb(242, 242, 242) 38px 38px,
-    rgb(242, 242, 242) 39px 39px,
-    rgb(242, 242, 242) 40px 40px,
-    rgb(242, 242, 242) 41px 41px,
-    rgb(242, 242, 242) 42px 42px,
-    rgb(242, 242, 242) 43px 43px,
-    rgb(242, 242, 242) 44px 44px,
-    rgb(242, 242, 242) 45px 45px,
-    rgb(242, 242, 242) 46px 46px,
-    rgb(242, 242, 242) 47px 47px,
-    rgb(242, 242, 242) 48px 48px,
-    rgb(243, 243, 243) 49px 49px,
-    rgb(243, 243, 243) 50px 50px,
-    rgb(243, 243, 243) 51px 51px,
-    rgb(243, 243, 243) 52px 52px,
-    rgb(243, 243, 243) 53px 53px,
-    rgb(243, 243, 243) 54px 54px,
-    rgb(244, 244, 244) 55px 55px,
-    rgb(244, 244, 244) 56px 56px,
-    rgb(244, 244, 244) 57px 57px,
-    rgb(244, 244, 244) 58px 58px,
-    rgb(244, 244, 244) 59px 59px,
-    rgb(244, 244, 244) 60px 60px,
-    rgb(244, 244, 244) 61px 61px,
-    rgb(245, 245, 245) 62px 62px,
-    rgb(245, 245, 245) 63px 63px,
-    rgb(245, 245, 245) 64px 64px,
-    rgb(245, 245, 245) 65px 65px,
-    rgb(245, 245, 245) 66px 66px,
-    rgb(245, 245, 245) 67px 67px,
-    rgb(246, 246, 246) 68px 68px,
-    rgb(246, 246, 246) 69px 69px,
-    rgb(246, 246, 246) 70px 70px,
-    rgb(246, 246, 246) 71px 71px,
-    rgb(246, 246, 246) 72px 72px,
-    rgb(246, 246, 246) 73px 73px,
-    rgb(247, 247, 247) 74px 74px,
-    rgb(247, 247, 247) 75px 75px,
-    rgb(247, 247, 247) 76px 76px,
-    rgb(247, 247, 247) 77px 77px,
-    rgb(247, 247, 247) 78px 78px,
-    rgb(247, 247, 247) 79px 79px,
-    rgb(247, 247, 247) 80px 80px,
-    rgb(248, 248, 248) 81px 81px,
-    rgb(248, 248, 248) 82px 82px,
-    rgb(248, 248, 248) 83px 83px,
-    rgb(248, 248, 248) 84px 84px,
-    rgb(248, 248, 248) 85px 85px,
-    rgb(248, 248, 248) 86px 86px,
-    rgb(249, 249, 249) 87px 87px,
-    rgb(249, 249, 249) 88px 88px,
-    rgb(249, 249, 249) 89px 89px,
-    rgb(249, 249, 249) 90px 90px,
-    rgb(249, 249, 249) 91px 91px,
-    rgb(249, 249, 249) 92px 92px,
-    rgb(249, 249, 249) 93px 93px,
-    rgb(250, 250, 250) 94px 94px,
-    rgb(250, 250, 250) 95px 95px,
-    rgb(250, 250, 250) 96px 96px,
-    rgb(250, 250, 250) 97px 97px,
-    rgb(250, 250, 250) 98px 98px,
-    rgb(250, 250, 250) 99px 99px,
-    rgb(251, 251, 251) 100px 100px,
-    rgb(251, 251, 251) 101px 101px,
-    rgb(251, 251, 251) 102px 102px,
-    rgb(251, 251, 251) 103px 103px,
-    rgb(251, 251, 251) 104px 104px,
-    rgb(251, 251, 251) 105px 105px,
-    rgb(252, 252, 252) 106px 106px,
-    rgb(252, 252, 252) 107px 107px,
-    rgb(252, 252, 252) 108px 108px,
-    rgb(252, 252, 252) 109px 109px,
-    rgb(252, 252, 252) 110px 110px,
-    rgb(252, 252, 252) 111px 111px,
-    rgb(252, 252, 252) 112px 112px,
-    rgb(253, 253, 253) 113px 113px,
-    rgb(253, 253, 253) 114px 114px,
-    rgb(253, 253, 253) 115px 115px,
-    rgb(253, 253, 253) 116px 116px,
-    rgb(253, 253, 253) 117px 117px,
-    rgb(253, 253, 253) 118px 118px,
-    rgb(254, 254, 254) 119px 119px,
-    rgb(254, 254, 254) 120px 120px,
-    rgb(254, 254, 254) 121px 121px,
-    rgb(254, 254, 254) 122px 122px,
-    rgb(254, 254, 254) 123px 123px,
-    rgb(254, 254, 254) 124px 124px,
-    rgb(255, 255, 255) 125px 125px;
-	height: 150px;
-	width: 150px;
-	text-align: center;
+	height:100px;
+	width: 400px;
+	text-align: left;
 }
 .logo h1{
 	font-family: 'Cagliostro', sans-serif;
@@ -298,8 +173,8 @@ h2.style{
 } 
 .images_1_of_4 {
 	text-align:center;
-	width: 19.333333%;
-	padding:6% 2%;
+	width: 14.333333%;
+	padding:2% 2%;
 	cursor:pointer;
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -374,8 +249,8 @@ h2.style{
 .col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 	
 .span_1_of_4 {
-	width: 19.333333%;
-	padding:4% 2%;
+	width: 14.333333%;
+	padding:2% 2%;
 }
 .span_1_of_4  h3{
 	font-size: 1.8em;
