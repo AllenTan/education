@@ -3,7 +3,6 @@
 <head>
 <!--slider-->
 <link href="${rc.contextPath}/static/web/css/camera.css" rel="stylesheet" type="text/css" media="all" />
-    <script type='text/javascript' src="${rc.contextPath}/static/web/js/jquery.min.js"></script>
     <script type='text/javascript' src="${rc.contextPath}/static/web/js/jquery.mobile.customized.min.js"></script>
     <script type='text/javascript' src="${rc.contextPath}/static/web/js/jquery.easing.1.3.js"></script> 
     <script type='text/javascript' src="${rc.contextPath}/static/web/js/camera.min.js"></script> 
@@ -24,11 +23,11 @@
 	</script>
 </head>
 <body>
-
+<input id="tab" type="hidden" value="index"/>
 <div class="fluid_container">
    <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
           <div data-src="${rc.contextPath}/static/web/images/img1.jpg"> </div>
-          <div data-src="${rc.contextPath}/static/web/images/img2.jpg"> </div>
+          <div data-src="${rc.contextPath}/static/web/images/img2.png"> </div>
   </div>
 </div>
 	<div class="clear"></div>
@@ -58,14 +57,13 @@
 			</div>
 			<div class="section group">
 				<div class="col_1_of_4 span_1_of_4">
-					<h3>全脑数学</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>舞蹈是一门综合性的表演艺术，它与音乐、诗歌、美术结合在一起，表达人们的思想感情，反映社会生活，它是通过有节奏的、美化了的人体动作和姿态来体现生活、情感的一门艺术.</p>
 					<div class="text1-nav">
 						<ul>
-						<li><a href="">The standard chunk of</a></li>
-							<li><a href="">Duis a augue euismod</a></li>
-							<li><a href="">The standard of Lorem</a></li>
-							<li><a href="">Duis a augue euismod</a></li>
+							<li><a href="#">新闻1</a></li>
+							<li><a href="#">新闻2</a></li>
+							<li><a href="#">新闻3</a></li>
+							<li><a href="#">新闻4</a></li>
 					    </ul>
 					</div>
 					<div class="button">
@@ -73,14 +71,13 @@
 					</div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					<h3>语言表演艺术</h3>
-					<p>Ut enim ad minim veniam,laboris commodo consequat.Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur.</p>
+					<p>舞蹈是一门综合性的表演艺术，它与音乐、诗歌、美术结合在一起，表达人们的思想感情，反映社会生活，它是通过有节奏的、美化了的人体动作和姿态来体现生活、情感的一门艺术.</p>
 					<div class="text1-nav">
 						<ul>
-						<li><a href="">The standard chunk of</a></li>
-							<li><a href="">Duis a augue euismod</a></li>
-							<li><a href="">The standard of Lorem</a></li>
-							<li><a href="">Duis a augue euismod</a></li>
+							<li><a href="#">新闻1</a></li>
+							<li><a href="#">新闻2</a></li>
+							<li><a href="#">新闻3</a></li>
+							<li><a href="#">新闻4</a></li>
 					    </ul>
 					</div>
 					<div class="button">
@@ -88,14 +85,13 @@
 					</div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4 hide">
-					<h3>舞蹈形体艺术</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>舞蹈是一门综合性的表演艺术，它与音乐、诗歌、美术结合在一起，表达人们的思想感情，反映社会生活，它是通过有节奏的、美化了的人体动作和姿态来体现生活、情感的一门艺术.</p>
 					<div class="text1-nav">
 						<ul>
-						<li><a href="">The standard chunk of</a></li>
-							<li><a href="">Duis a augue euismod</a></li>
-							<li><a href="">The standard of Lorem</a></li>
-							<li><a href="">Duis a augue euismod</a></li>
+							<li><a href="#">新闻1</a></li>
+							<li><a href="#">新闻2</a></li>
+							<li><a href="#">新闻3</a></li>
+							<li><a href="#">新闻4</a></li>
 					    </ul>
 					</div>
 					<div class="button">
@@ -103,12 +99,13 @@
 					</div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4 hide">
-					<h3>声乐合唱艺术</h3>
-					<p>Ut enim ad minim veniam,laboris commodo consequat.Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur.</p>
+					<p>舞蹈是一门综合性的表演艺术，它与音乐、诗歌、美术结合在一起，表达人们的思想感情，反映社会生活，它是通过有节奏的、美化了的人体动作和姿态来体现生活、情感的一门艺术.</p>
 					<div class="text1-nav">
 						<ul>
-						<li><a href="">The standard chunk of</a></li>
-							<li><a href="details.html">Duis a augue euismod</a></li>
+							<li><a href="#">新闻1</a></li>
+							<li><a href="#">新闻2</a></li>
+							<li><a href="#">新闻3</a></li>
+							<li><a href="#">新闻4</a></li>
 					    </ul>
 					</div>
 						<div class="button">
@@ -116,12 +113,13 @@
 					</div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4 hide">
-					<h3>武术表演艺术</h3>
-					<p>Ut enim ad minim veniam,laboris commodo consequat.Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur.</p>
+					<p>舞蹈是一门综合性的表演艺术，它与音乐、诗歌、美术结合在一起，表达人们的思想感情，反映社会生活，它是通过有节奏的、美化了的人体动作和姿态来体现生活、情感的一门艺术.</p>
 					<div class="text1-nav">
 						<ul>
-						<li><a href="">The standard chunk of</a></li>
-							<li><a href="details.html">Duis a augue euismod</a></li>
+							<li><a href="#">新闻1</a></li>
+							<li><a href="#">新闻2</a></li>
+							<li><a href="#">新闻3</a></li>
+							<li><a href="#">新闻4</a></li>
 					    </ul>
 					</div>
 						<div class="button">

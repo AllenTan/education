@@ -3,7 +3,6 @@
 <head>
 <!--start lightbox -->
 <link rel="stylesheet" type="text/css" href="${rc.contextPath}/static/web/css/jquery.lightbox.css">
-<script src="${rc.contextPath}/static/web/js/jquery.min.js"></script>
 <script src="${rc.contextPath}/static/web/js/jquery.lightbox.js"></script>
 <script>
   // Initiate Lightbox
@@ -13,6 +12,7 @@
 </script>
 </head>
 <body>
+<input id="tab" type="hidden" value="service"/>
 <div class="main_bg">
 <div class="wrap">
 <div class="wrapper">

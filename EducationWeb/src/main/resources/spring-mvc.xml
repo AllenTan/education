@@ -80,13 +80,13 @@
  
 	<!-- 定义异常解析 -->
 	<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">     
-        <property name="defaultErrorView" value="/error/web/500.ftl"></property>  
+        <property name="defaultErrorView" value="/education/error"></property>  
         <property name="exceptionAttribute" value="exception"></property>         
         <property name="exceptionMappings">  
             <props>  
-                <prop key="com.ecm.framework.exception.BaseDaoException">/error/web/500.ftl</prop>  
-                <prop key="com.ecm.framework.exception.BaseServiceException">/error/web/500.ftl</prop>
-                <prop key="com.ecm.framework.exception.BaseException">/error/web/500.ftl</prop>
+                <prop key="com.ecm.framework.exception.BaseDaoException">/education/error</prop>  
+                <prop key="com.ecm.framework.exception.BaseServiceException">/education/error</prop>
+                <prop key="com.ecm.framework.exception.BaseException">/education/error</prop>
             </props>  
         </property>  
     </bean>  

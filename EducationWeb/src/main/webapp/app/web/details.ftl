@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <body>
+<input id="tab" type="hidden" value="details"/>
 <div class="main_bg">
 <div class="wrap">
 <div class="wrapper">

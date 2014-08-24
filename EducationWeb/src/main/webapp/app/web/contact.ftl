@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <body>
+<input id="tab" type="hidden" value="contact"/>
 <div class="main_bg">
 <div class="wrap">
 <div class="wrapper">
@@ -10,47 +11,17 @@
 					<div class="contact_info">
 			    	 	<h2 class="style">Find Us Here</h2>
 			    	 		<div class="map">
-					   			<iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color: #1ABC9C;text-align:left;font-size:13px">View Larger Map</a></small>
+					   			<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="${rc.contextPath}/static/web/baidu.html"></iframe><br><small><a href="#" style="color: #1ABC9C;text-align:left;font-size:13px">详细地图</a></small>
 					   		</div>
       				</div>
       			<div class="company_address">
 				     	<h2 class="style">Company Address </h2>
-						<p>500 Lorem Ipsum Dolor Sit,</p>
-						<p>22-56-2-9 Sit Amet, Lorem,</p>
-						<p>USA</p>
-				   		<p>Phone:(00) 222 666 444</p>
-				   		<p>Fax: (000) 000 00 00 0</p>
-				 	 	<p>Email: <span>info@mycompany.com</span></p>
-				   		<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>
+						<p>广东广州番禺钟村锦绣趣园十座47号</p>
+				   		<p>电话:(00) 222 666 444</p>
+				 	 	<p>Email: <span>jianjianjiaozq@163.com</span></p>
 				   </div>
 				   <div class="clear"></div>
-				</div>				
-				<div class="col span_2_of_4">
-				  <div class="contact-form">
-				  	<h2 class="style">Contact Us</h2>
-					       <form method="post" action="contact-post.html">
-					    	<div>
-						    	<span><label>NAME</label></span>
-						    	<span><input name="userName" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>E-MAIL</label></span>
-						    	<span><input name="userEmail" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						     	<span><label>MOBILE</label></span>
-						    	<span><input name="userPhone" type="text" class="textbox"></span>
-						    </div>
-						    <div>
-						    	<span><label>SUBJECT</label></span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<a href="" class="btn btn_s">send me</a>
-						  </div>
-					    </form>
-				    </div>
-  				</div>		
+				</div>						
   			<div class="clear"></div>
 		  </div>
 	</div>

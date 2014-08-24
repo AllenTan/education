@@ -40,5 +40,10 @@ public class EducationController {
     public String toContact() {
         return "web/contact";
     }
+    
+    @RequestMapping(value = "/error")
+    public String error() {
+        return "error/web/500";
+    }
 
 }
