@@ -60,7 +60,7 @@
 					<p>针对３―9岁少儿（网站：www.yesno.com.tw中文；www.m2math..net英文）在台湾、美国、纽澳地区及东南亚有多所培训教室。尖尖角是全脑数学公司祈福唯一指定教室，为学员提供正版教材及教学服务。让孩子在画画、想想、做做中满心欢喜地学数学.培养独立思考、主动学习的习惯，多想法、多方法的思维方式。</p>
 					
 					<div class="button">
-						<a href="details.html">更多</a>
+						<a href="${rc.contextPath}/quannaodetails">更多</a>
 					</div>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
