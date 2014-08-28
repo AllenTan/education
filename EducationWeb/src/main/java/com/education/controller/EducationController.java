@@ -36,6 +36,27 @@ public class EducationController {
         return "web/service";
     }
     
+    @RequestMapping(value = "/quannao")
+    public String toQuanNao() {
+        return "web/quannao";
+    }
+    @RequestMapping(value = "/wudao")
+    public String toWuDao() {
+        return "web/wudao";
+    }
+    @RequestMapping(value = "/wushu")
+    public String toWuShu() {
+        return "web/wushu";
+    }
+    @RequestMapping(value = "/yinyue")
+    public String toYinYue() {
+        return "web/yinyue";
+    }
+    @RequestMapping(value = "/yuyan")
+    public String toYuYan() {
+        return "web/yuyan";
+    }
+    
     @RequestMapping(value = "/contact")
     public String toContact() {
         return "web/contact";
