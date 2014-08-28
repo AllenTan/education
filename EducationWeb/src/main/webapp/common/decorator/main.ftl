@@ -30,9 +30,10 @@
 			<div class="cssmenu">
 				<ul>
 				  	<li id="index" class="active"><a href="${rc.contextPath}/education/index"><span>首页</span></a></li>
-					<li id="about"><a href="${rc.contextPath}/education/about"><span>关于我们</span></a></li>
-					<li id="staff"><a href="${rc.contextPath}/education/staff"><span>员工简介</span></a></li>
 					<li id="service" class="has-sub"><a href="${rc.contextPath}/education/service"><span>教育服务</span></a></li>
+					<li id="service" class="has-sub"><a href="${rc.contextPath}/education/fengcai"><span>尖尖角风采</span></a></li>
+					<li id="staff"><a href="${rc.contextPath}/education/staff"><span>员工简介</span></a></li>
+					<li id="about"><a href="${rc.contextPath}/education/about"><span>关于我们</span></a></li>
 					<li id="contact" class="last"><a href="${rc.contextPath}/education/contact"><span>联系我们</span></a></li>
 					<div class="clear"></div>
 				 </ul>
