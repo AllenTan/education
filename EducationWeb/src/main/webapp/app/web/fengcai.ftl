@@ -11,11 +11,11 @@
 <div class="wrapper">
 <div class="main">
 		<div class="details">
-			<h2 class="style">尖尖角风采</h2>
+			<h2 class="style">视频1</h2>
 		<div class="det_pic img_style">
-			<a  href="${rc.contextPath}/static/web/test2.f4v" style="display:block;width:auto;height:600px" id="player"></a> 
+			<a  href="${rc.contextPath}/static/web/test.flv" style="display:block;width:auto;height:600px" id="player"></a> 
 			<script>
-				flowplayer("player", "${rc.contextPath}/static/web/js/flowplayer/flowplayer.swf",{clip:{ autoPlay: false}});
+				flowplayer("player", "${rc.contextPath}/static/web/js/flowplayer/flowplayer.swf",{buffering : true,clip:{autoPlay: false}});
 			</script>		
 		</div>
 		<div class="det-para">

@@ -65,9 +65,9 @@ h2.style{
 /*logo*/
 .logo{
 	float:left;
-	height:100px;
-	width: 400px;
-	text-align: left;
+	height:80px;
+	width: 28%;
+	vertical-align: middle;
 }
 .logo h1{
 	font-family: 'Cagliostro', sans-serif;
@@ -78,7 +78,8 @@ h2.style{
 }
 .header_right{
 	float: right;
-	margin-top: 3%;
+	margin-top: 1%;
+	width:70%;
 }
 /*menu*/
 .cssmenu {
@@ -98,6 +99,7 @@ h2.style{
 }
 .cssmenu > ul > li span img {
 	vertical-align: middle;
+	
 }
 .cssmenu > ul > li > a {
 	border-radius: 4px;

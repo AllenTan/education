@@ -2,6 +2,7 @@
 <decorators defaultdir="/common/decorator/">
 	<excludes>
 		<pattern>/static/*</pattern>
+		<pattern>/education/test</pattern>
 	</excludes>
 	<decorator name="main" page="main.ftl">
 		<pattern>/education/*</pattern>

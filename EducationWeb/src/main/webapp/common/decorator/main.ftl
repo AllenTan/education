@@ -48,6 +48,7 @@
 				<div class="footer">
 					<div class="copy">
 						<p class="w3-link">© All Rights Reserved | Design by&nbsp; <a href="#"> Weekend工作室</a></p>
+						<p class="w3-link">支持IE8以上的浏览器、google Chrome浏览器、Firefox浏览器</p>
 					</div>
 				</div>
 			</div>
